@@ -4,7 +4,7 @@
 12>2, 78>8
 */
 
- int GetMaxNumberRandomValue()
+ void GetMaxNumberRandomValue()
  {
  int randomValue = new Random().Next(10,100);
  Console.WriteLine($"RandomValue - {randomValue}");
@@ -22,8 +22,8 @@
  Console.WriteLine($"FirstNumber - {firstNumber}");
  Console.WriteLine($"LastNumber - {lastNumber}");
  Console.WriteLine($"Maximalnoe - {max}");
- return max;
  }
 
-int number = GetMaxNumberRandomValue();
-Console.WriteLine(number);
+GetMaxNumberRandomValue();
+GetMaxNumberRandomValue();
+GetMaxNumberRandomValue();
