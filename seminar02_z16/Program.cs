@@ -14,3 +14,4 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите 2 число");
 int number2 = Convert.ToInt32(Console.ReadLine());
 CheckIsItSquare(number1,number2);
+CheckIsItSquare(number1,number2);
