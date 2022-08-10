@@ -11,4 +11,3 @@ void GetThreedigitNumberRandomDeleteTwo(){
     Console.WriteLine($"{firstNumber}{lastNumber}");
 }
 GetThreedigitNumberRandomDeleteTwo();
-GetThreedigitNumberRandomDeleteTwo();
